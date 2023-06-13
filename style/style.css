@@ -1,0 +1,1324 @@
+@font-face {
+    font-family: Zouhier;
+    src: url(/fonts/Hello.otf);
+  }
+
+
+/* start style for all body*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* ======================================= */
+/* end style for all body*/
+/* ======================================= */
+.clear {
+    clear: both;
+}
+/* style index header */
+/* ======================================= */
+.index-header {
+    height: 666px;
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hermers {
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 255px; 
+    font-family: system-ui;
+}
+/* ======================================= */
+
+/* style left section */
+
+.left-section {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background-color: #0000007d;
+}
+/* ======================================= */
+/* style img logo */
+img.logo {
+   position: absolute;
+   top: 57px;
+   left: 170px; 
+   width: 75px;
+   height: 75px;
+   border-radius: 10px;
+}
+/* ======================================= */
+
+div.left-section h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    top: 218px;
+    left: 170px;
+}
+/* ============================ */
+div.contact-us {
+    width: 350px;
+    position: absolute;
+    top: 293px;
+    left: 170px;
+}
+/* ============================ */
+div.contact-us a {
+
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: #8080807a;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    position: relative;
+}
+/* ============================ */
+
+div.contact-us a:hover {
+    background-color: #ba9c65;
+}
+/* ============================ */
+
+span {
+    display: flex;
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: #928e8e40;
+}
+/* ============================ */
+
+.btn-link {
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    background-color: #efce68;
+    bottom: 0px;
+    left: 50%;
+    padding: 20px;
+    transform: translateX(-50%);
+    border-radius: 5px 5px 0 0;
+    width: 45%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* ============================ */
+.fa {
+    margin-right: 10px;
+}
+/* ============================ */
+/* start style for right section*/
+.right-section
+{
+    width: 468px;
+    height: 362px;
+    position: absolute;
+    bottom: 250px;
+    right: 250px;
+    background-color: rgba(235, 233, 233, 0.455);
+}
+/* ============================ */
+.travile-info
+{
+    position: absolute;
+    top: 29px;
+    left: 37px;
+}
+/* ============================ */
+.from-select
+{
+    width: 175px;
+    color: #efce68;
+    position: absolute;
+    top: 47px;
+    background-color: #000000ab;
+    padding: 3px;
+}
+/* ============================ */
+.to-select
+{
+    position: absolute;
+    top: 49px;
+    left: 228px;
+    width: 175px;
+    color: #efce68;
+    background-color: #000000ab;
+    padding: 3px;
+}
+/* ============================ */
+.to-destination
+{
+    position: absolute;
+    top: 25px;
+    left: 225px;
+}
+/* ============================ */
+.DEPARTURE-DATE
+{
+    position: absolute;
+    top: 94px;
+    
+}
+/* ============================ */
+.go-date
+{
+    position: absolute;
+    top: 139px;
+    left: 0px;
+    color:#efce68;
+    width: 148px;
+    background-color: #000000ab;
+    padding: 3px;
+}
+/* ============================ */
+.RETURN-DATE-1
+{
+    position: absolute;
+    top: 94px;
+    left: 223px;
+    inline-size:max-content;
+}
+/* ============================ */
+.return-date
+{
+    position: absolute;
+    top: 139px;
+    left: 223px;
+    color: #efce68;
+    width: 148px;
+    background-color: #000000ab;
+    padding: 3px;
+}
+/* ============================ */
+.How-many-people
+{
+    position: absolute;
+    top: 185px; 
+    
+}
+/* ============================ */
+.number-of-people
+{
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding: 2px;
+    position: absolute;
+    top: 220px;
+    color: #efce68;
+    width: 148px;
+    background-color: #000000ab;
+    padding: 3px;
+}
+/* ======================================= */
+.number-of-people:focus {
+    box-shadow: 0px 0px 0px 2px #efce68;
+}
+/* ============================ */
+.ticket-type
+{
+    position: absolute;
+    top: 220px;
+    left: 190px;
+    display: flex;
+    color: #efce68;
+}
+/* ============================ */
+.btn-submit
+{
+    cursor: pointer;
+    position: absolute;
+    padding: 10px;
+    top: 275px;
+    left: 83px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    background-color: #efce68;
+    border-radius: 5px;
+    border: none;
+    width: 206px;
+    font-size: 17px;
+}
+/* ============================ */
+input[id="round"] {
+    margin-right: 10px;
+}
+
+#round,
+#oneway {
+    margin-left: 6px;
+}
+
+/* ============================ */
+
+.field-style:focus {
+    box-shadow: 0px 0px 0px 2px #efce68;
+}
+/* ============================ */
+.field-style {
+    transition: 300ms;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+/* end style for right section*/
+/* ============================ */
+/* start our servicec secthion*/
+.our-services { 
+    height: 500px;
+    background-color:#dfd8c6;
+    border: none;
+}
+/* ============================ */
+.ors{
+    position: absolute;
+    top: 710px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* ======================================= */
+.parent
+{
+    
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}
+/* ======================================= */
+.service-1
+{
+    
+    width: 250px;
+    height: 366px;
+    position: absolute;
+    top: 781px;
+    left: 5%;
+}
+/* ======================================= */
+.service-2
+{
+    
+    width: 250px;
+    height: 366px;
+    position: absolute;
+    top: 781px;
+    left: 23%;
+}
+/* ======================================= */
+.service-3
+{
+    
+    width: 250px;
+    height: 366px;
+    position: absolute;
+    top: 781px;
+    right: 42%;
+}
+/* ======================================= */
+.service-4
+{
+    
+    width: 250px;
+    height: 366px;
+    position: absolute;
+    top: 781px;
+    right: 23%;
+}
+/* ============================ */
+/* ======================================= */
+.service-5
+{
+    
+    width: 250px;
+    height: 366px;
+    position: absolute;
+    top: 781px;
+    right: 5%;
+}
+/* ============================ */
+.service-1,
+.service-2,
+.service-3,
+.service-4,
+.service-5
+{
+    background-color: #1f3646;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* ============================ */
+.service-1:hover
+{
+    background-color: #efce68;
+    color: black;
+    transition: 1s;
+    box-shadow: 2px 2px 13px 0px black;
+    
+}
+/* ============================ */
+.service-2:hover
+{
+    background-color: #efce68;
+    color: black;
+    transition: 1s;
+    box-shadow: 2px 2px 13px 0px black;
+}
+/* ============================ */
+.service-3:hover
+{
+    background-color: #efce68;
+    color: black;
+    transition: 1s;
+    box-shadow: 2px 2px 13px 0px black;
+}
+/* ============================ */
+.service-4:hover
+{
+    background-color: #efce68;
+    color: black;
+    transition: 1s;
+    box-shadow: 2px 2px 13px 0px black;
+}
+/* ============================ */
+.service-5:hover
+{
+    background-color: #efce68;
+    color: black;
+    transition: 1s;
+    box-shadow: 2px 2px 13px 0px black;
+}
+/* ============================ */
+/*start style for service 1
+/* ============================ */
+.service-1-image
+{
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    width: 75px;
+    height: 75px;
+}
+/* ============================ */
+.service-1-title
+{
+    position: absolute;
+    top: 111px;
+    left: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+/* ============================ */
+.service-1-pharagrph
+{
+    position: absolute;
+    top: 157px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+/*end style for service 1*/
+/* ============================ */
+/*star style for service 2 */
+.service-2-image
+{
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    width: 75px;
+    height: 75px;
+}
+/* ============================ */
+.service-2-title
+{
+    position: absolute;
+    top: 111px;
+    left: 58px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+
+}
+/* ============================ */
+.service-2-pharagrph
+{
+    position: absolute;
+    top: 157px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+/*end style for service 2 */
+/*===================================*/
+/*star style for service 3 */
+/*===================================*/
+.service-3-image
+{
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    width: 75px;
+    height: 75px;
+}
+/* ============================ */
+.service-3-title
+{
+    position: absolute;
+    top: 111px;
+    left: 48px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+/* ============================ */
+.service-3-pharagrph
+{
+    position: absolute;
+    top: 157px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+/*===================================*/
+/*end style for service 3 */
+/*===================================*/
+/*start style for service 4 */
+/*===================================*/
+.service-4-image
+{
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    width: 75px;
+    height: 75px;
+}
+/* ============================ */
+.service-4-title
+{
+    position: absolute;
+    top: 111px;
+    left: 48px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+/* ============================ */
+.service-4-pharagrph
+{
+    position: absolute;
+    top: 140px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+/*===================================*/
+/*end style for service 4 */
+/*start style for service 4 */
+/*===================================*/
+.service-5-image
+{
+    position: absolute;
+    top: 13px;
+    left: 29%;
+    width: 100px;
+    height: 100px;
+}
+/* ============================ */
+.service-5-title
+{
+    position: absolute;
+    top: 111px;
+    left: 48px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+/* ============================ */
+.service-5-pharagrph
+{
+    position: absolute;
+    top: 140px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+/*===================================*/
+/*end style for service 4 */
+/*===================================*/
+/*end style for our services section*/
+/* ======================================= */
+/*start style for hotel services section*/
+/* ======================================= */
+.hotel-services {
+    height: 700px;
+    background-color: #c4bdbd;
+    /* border: 1px dashed green; */
+}
+/* ============================ */
+.hotel-title
+{
+font-weight: bold;
+position: absolute;
+top: 1225px;
+left: 600px;
+font-size: 20px;
+}
+/* =============1============== */
+
+.button-1
+{
+    position: absolute;
+    top: 1350px;
+    left: 186px;
+    width: 400px;
+    height: 50px;
+    background-color: #1f3646;
+    color: white;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.button-1-image
+{
+    visibility: hidden;
+    
+}
+p
+{
+    font-family: none;
+}
+.image-1
+{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 1300px;
+    left: 700px; 
+    box-shadow: 2px 2px 13px 0px rgb(55, 53, 53);
+    border-radius: 15px;
+}
+.image-1-title
+{
+    width: 700px;
+    height: 76px;
+    position: absolute;
+    top: 1650px;
+    left: 700px;
+    background-color: #1f3646f7;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+.button-1:focus +.button-1-image
+{
+    visibility: visible;
+}
+.button-1:focus
+{
+    background-color: #efce68;
+    color: black;
+    box-shadow: 2px 2px 13px 0px rgb(55, 53, 53);
+    transition: 500ms;
+}
+.button-1:hover
+{
+   
+    box-shadow: 2px 2px 13px 0px rgb(55, 53, 53);
+    transition: 500ms;
+}
+/*****************2******************/
+.button-2
+{
+    position: absolute;
+    top: 1420px;
+    left: 186px;
+    width: 400px;
+    height: 50px;
+    background-color: #1f3646;
+    color: white;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    
+}
+.button-2-image
+{
+    visibility: hidden;
+}
+p
+{
+    font-family: none;
+}
+.image-2
+{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 1300px;
+    left: 700px; 
+    border-radius: 15px;
+}
+.image-2-title
+{
+    width: 700px;
+    height: 76px;
+    position: absolute;
+    top: 1650px;
+    left: 700px;
+    background-color: #1f3646f7;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+.button-2:focus +.button-2-image
+{
+    visibility: visible;
+}
+.button-2:focus
+{
+    background-color: #efce68;
+    color: black;
+    box-shadow: 2px 2px 13px 0px rgb(55, 53, 53);
+    transition: 500ms;
+}
+.button-2:hover
+{
+   
+    box-shadow: 2px 2px 13px 0px rgb(55, 53, 53);
+    transition: 500ms;
+}
+
+/*****************3******************/
+.button-3
+{
+    position: absolute;
+    top: 1490px;
+    left: 186px;
+    width: 400px;
+    height: 50px;
+    background-color: #1f3646;
+    color: white;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    
+}
+.button-3-image
+{
+    visibility: hidden;
+}
+p
+{
+    font-family: none;
+}
+.image-3
+{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 1300px;
+    left: 700px; 
+    border-radius: 15px;
+}
+.image-3-title
+{
+    width: 700px;
+    height: 76px;
+    position: absolute;
+    top: 1650px;
+    left: 700px;
+    background-color: #1f3646f7;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+.button-3:focus +.button-3-image
+{
+    visibility: visible;
+}
+.button-3:focus
+{
+    background-color: #efce68;
+    color: black;
+    box-shadow: 2px 2px 13px 0px rgb(55, 53, 53);
+    transition: 500ms;
+}
+.button-3:hover
+{
+   
+    box-shadow: 2px 2px 13px 0px rgb(55, 53, 53);
+    transition: 500ms;
+}
+/*****************4******************/
+.button-4
+{
+    position: absolute;
+    top: 1560px;
+    left: 186px;
+    width: 400px;
+    height: 50px;
+    background-color: #1f3646;
+    color: white;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    
+}
+/*******************************/
+.button-4-image
+{
+    visibility: hidden;
+}
+/*******************************/
+p
+{
+    font-family: none;
+}
+/********************************/
+.image-4
+{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 1300px;
+    left: 700px; 
+    border-radius: 15px;
+}
+/********************************/
+.image-4-title
+{
+    width: 700px;
+    height: 76px;
+    position: absolute;
+    top: 1650px;
+    left: 700px;
+    background-color: #1f3646f7;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+/********************************/
+.button-4:focus +.button-4-image
+{
+    visibility: visible;
+}
+/********************************/
+.button-4:focus
+{
+    background-color: #efce68;
+    color: black;
+    box-shadow: 2px 2px 13px 0px rgb(55, 53, 53);
+    transition: 500ms;
+}
+/********************************/
+.button-4:hover
+{
+   
+    box-shadow: 2px 2px 13px 0px rgb(55, 53, 53);
+    transition: 500ms;
+}
+/************************************/
+/*end style for hotel services section*/
+/* ============================ */
+/*start style for mvp section*/
+/* ======================================= */
+.most-viseted-place {
+    height: 600px;
+    font-weight: bold;
+    position: relative;
+}
+/* ======================================= */
+.most-viseted-place h2 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* ======================================= */
+.parent-places {
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+/* ======================================= */
+.place-1 {
+    float: left;
+    width: 250px;
+    height: 100%;
+    margin-left: 3%;
+    background-color: #f4f4f4;
+    box-shadow: 2px 2px 13px 0px grey;
+    border-radius: 5px;
+}
+/* ======================================= */
+.child-places {
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* ======================================= */
+.place-img {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+/* ======================================= */
+div.parent-places div.child-places div.place-1 img {
+    width: 100%;
+    height: 70%;
+}
+/* ======================================= */
+div.place-1 p {
+    width: fit-content;
+}
+/* ======================================= */
+div.place-1 p,
+div.place-1 small {
+    display: block;
+    margin: 10px 0px 0px 15px;
+}
+/* ======================================= */
+div.place-1 small {
+    color: #3f6f90;
+}
+/* ======================================= */
+.first-btn,.two-btn,.three-btn {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #e2dfdf;
+    display: inline-block;
+    margin-left: 10px;
+    transition: 400ms;
+}
+/* ======================================= */
+.first-btn:focus {
+    background-color: #efce68;
+}
+/* ======================================= */
+.two-btn:focus {
+    background-color: #efce68;
+}
+/* ======================================= */
+.three-btn:focus {
+    background-color: #efce68;
+}
+/* ======================================= */
+.visiblility-1 {
+    visibility: hidden;
+}
+/* ======================================= */
+.visiblility-2 {
+    visibility: hidden;
+}
+/* ======================================= */
+.visiblility-3 {
+    visibility: hidden;
+}
+/* ======================================= */
+.first-btn:focus + .visiblility-1 {
+    visibility: visible;
+}
+/* ======================================= */
+.two-btn:focus + .visiblility-2 {
+    visibility: visible;
+}
+/* ======================================= */
+.three-btn:focus + .visiblility-3 {
+    visibility: visible;
+}
+/* ======================================= */
+.first-btn {
+    position: absolute;
+    top: 365px;
+    left: 46%;
+}
+/* ======================================= */
+.two-btn {
+    position: absolute;
+    top: 365px;
+    left: 48%;
+}
+/* ======================================= */
+.three-btn {
+    position: absolute;
+    top: 365px;
+    left: 50%;
+}
+/* ======================================= */
+/*end style for mvc section*/
+/* ======================================= */
+/*start style for footer*/
+.footer
+{
+    border: none;
+    width: 100%;
+    height: 400px;
+    background-color: #1f3646;
+}
+/*****************************/
+.back
+{
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  top: 2540px;
+  left: 700px;
+  background-color: #efce68;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 14px;
+}
+/*******************************/
+.back:hover
+{
+    cursor: pointer;
+    box-shadow: 2px 2px 13px 0px black;
+}
+/*******************************/
+.our-sponser
+{
+    border-radius: 20px;
+    position: absolute;
+    top: 2500px;
+    left: 100px;
+    width: 300px;
+    height: 330px;
+    background-color: #807a7a2e;
+}
+/*******************************/
+.our-sponser-title
+{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+/***********************/
+.logo-1
+{
+margin-left: 20px;
+}
+.logo-1-image
+{
+    width: 70px;
+    height: 70px;
+}
+/**********************/
+.logo-2
+{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.logo-2-image
+{
+    width: 70px;
+    height: 70px;
+}
+/**********************/
+.logo-3
+{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.logo-3-image
+{
+    width: 70px;
+    height: 70px;
+}
+/**********************/
+.logo-1,.logo-2,.logo-3
+{
+    display: inline-block;
+}
+/**********************/
+.logo-4
+{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.logo-4-image
+{
+    width: 70px;
+    height: 70px;
+}
+/************************/
+.logo-5
+{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.logo-5-image
+{
+    width: 70px;
+    height: 70px;
+}
+/***********************/
+.logo-4,.logo-5,.logo-6
+{
+    display: inline-block;
+}
+/************************/
+.logo-7,.logo-8
+{
+    display: inline-block;
+}
+.logo-6
+{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.logo-6-image
+{
+    width: 70px;
+    height: 70px;
+}
+/*************************/
+
+.logo-7
+{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.logo-7-image
+{
+    width: 70px;
+    height: 70px;
+}
+/**************************/
+.logo-8
+{
+    margin-left: 250px;
+    margin-top: 265px;
+}
+.logo-8-image
+{
+    width: 70px;
+    height: 70px;
+}
+/**************************/
+.social-logo-1
+{
+    
+    width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 2600px;
+   left: 536px;
+}
+/**************************/
+.social-logo-1:hover
+{
+background-color: #efce68;
+box-shadow: 2px 2px 13px 0px #1f3646;
+}
+/***************************/
+.social-logo-2
+{
+   
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 2600px;
+    left: 649px;
+}
+/**************************/
+.social-logo-2:hover
+{
+background-color: #efce68;
+box-shadow: 2px 2px 13px 0px #1f3646;
+}
+/****************************/
+.social-logo-3
+{
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 2600px;
+    left: 761px;
+}
+/**************************/
+.social-logo-3:hover
+{
+background-color: #efce68;
+box-shadow: 2px 2px 13px 0px #1f3646;
+}
+/*****************************/
+.social-logo-4
+{
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 2600px;
+    left: 875px;
+}
+/**************************/
+.social-logo-4:hover
+{
+background-color: #efce68;
+box-shadow: 2px 2px 13px 0px #1f3646;
+}
+/******************************/
+.social-logo-1,
+.social-logo-2,
+.social-logo-3,
+.social-logo-4
+{
+   background-color: #807a7a2e;
+}
+/******************************/
+.social-logo-1-image
+{
+    width: 70px;
+    height: 70px;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+/******************************/
+.social-logo-2-image
+{
+    width: 70px;
+    height: 70px;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+/******************************/
+.social-logo-3-image
+{
+    width: 70px;
+    height: 70px;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+/******************************/
+.social-logo-4-image
+{
+    width: 70px;
+    height: 70px;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+/*******************************/
+.Made-By
+{
+    border-radius: 20px;
+    position: absolute;
+    top: 2500px;
+    left: 1110px;
+    width: 300px;
+    height: 330px;
+    background-color: #807a7a2e;
+}
+/*******************************/
+.Made-By-title
+{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+/***********************/
+.team-name
+{
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 20px;
+    
+}
+/***********************/
+.team-heart
+{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+     top: 40px;
+     left: 205px;
+}
+/*************************/
+/*end style for the main page
+/*************************/
+
+/* media */
+
+#icon1 {
+    padding-left: 40px;
+    font-size: 30px;
+}
+
+#icon2 {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+#icon3 {
+    padding-left: 8px;
+    font-size: 30px;
+}
+
+#account-logo {
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 800ms;
+    color: white;
+    cursor: pointer;
+    background-color: #ba9c65;
+    padding: 8px 12px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+#account-logo:hover {
+    color: black;
+    background-color: white;
+}
+
+
+
